@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>한빛출판네트워크 비밀번호 찾기 페이지</title>
+</head>
+<body>
+    <h1>비밀번호 찾기</h1>
+    <p>등록한 회원정보 또는 본인인증으로 비밀번호를 찾을 수 있습니다.</p>
+    <div class="info-member">
+        <form action="/" method="POST">
+            <fieldset>
+                <legend>등록된 회원정보로 찾기</legend>
+                <p>회원 가입 시 등록한 정보를 정확히 입력해주세요.</p>
+                <label for="user-id">아이디</label>
+                <input type="text" name="userid" id="user-id" placeholder="아이디" required>
+                <label for="user-name">이름</label>
+                <input type="text" name="username" id="user-name" placeholder="이름" required>
+                <label for="user-email">이메일</label>
+                <input type="email" name="useremail" id="user-email" placeholder="이메일" required>
+                <button type="submit">비밀번호 찾기</button>
+            </fieldset>
+        </form>
+    </div>
+    <div class="info-auth">
+        <form action="/" method="post">
+            <fieldset>
+                <legend>본인인증 수단으로 찾기</legend>
+                <p>아이디 확인 후 본인인증을 선택해주세요.</p>
+                <label for="user-id">아이디</label>
+                <input type="text" name="userid" id="user-id" placeholder="아이디" required>
+                <button type="button">확인</button>
+                <label for="how-auth1">인증방식</label>
+                <input type="radio" id="how-auth1" name="howauth" required>아이핀 인증
+                <label for="how-auth1">인증방식</label>
+                <input type="radio" id="how-auth2" name="howauth" required>휴대폰 본인인증
+                <button type="sumit">비밀번호 찾기</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
