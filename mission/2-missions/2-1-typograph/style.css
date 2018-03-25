@@ -1,0 +1,63 @@
+/* 타이포그라피 스타일 */
+h1, h2, h3, h4, p {
+    font-family: SpoqaHanSans;
+    letter-spacing: -0.025em;
+    line-height: 1.5;
+}
+
+h1, p {
+    font-weight: 400;
+}
+
+h2, h3, h4 {
+    font-weight: 700;
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.large {
+    font-size: 14px;
+}
+
+.small {
+    font-size: 13px
+}
+
+*[lang="en"] {
+    letter-spacing: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* 레이아웃 스타일 */
+.wrapper {
+    width: 100%;
+}
+
+.section {
+    position: relative;
+    height: 250px;
+}
+
+.left {
+    float: left;
+    padding: 0 3rem 0 2rem;
+    border-right: 1px solid;
+    margin-right: 3rem;
+}
+
+.right {
+    padding: 1rem;
+}
