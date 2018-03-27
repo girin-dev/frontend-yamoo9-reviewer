@@ -6,7 +6,7 @@
 
 ## Mission
 ### [Chapter 1] 구조 디자인 (HTML 마크업)
-* [미션 1-1-W3C validator](https://github.com/girin-dev/frontend-yamoo9-reviewer/blob/master/mission/1-1-validate-markup.md)
+* [미션 1-1-W3C validator](https://github.com/girin-dev/frontend-yamoo9-reviewer/blob/master/1-html-missions/1-1-validate-markup.md)
 * [미션 1-2-ol, ul, li](https://github.com/girin-dev/frontend-yamoo9-reviewer/blob/master/mission/1-2-markup-ol%2Cul%2Cli.html)
 * [미션 1-3-dl, dt, dd](https://github.com/girin-dev/frontend-yamoo9-reviewer/blob/master/mission/1-3-markup-dl%2Cdt%2Cdd.html)
 * [미션 1-4-q, cite, blockquote, br](https://github.com/girin-dev/frontend-yamoo9-reviewer/blob/master/mission/1-4-markup-q%2Ccite%2Cblockquote%2Cbr.html)
