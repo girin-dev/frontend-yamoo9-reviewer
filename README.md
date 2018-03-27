@@ -3,6 +3,8 @@
 # 강의노트
 ### (1) HTML Markup
 * [강의노트1](https://github.com/girin-dev/frontend-yamoo9-reviewer/blob/master/1.%20HTML(markup).md)
+### (2) CSS Styling
+* [강의노트: 배경과 레이아웃(float)](https://github.com/girin-dev/frontend-yamoo9-reviewer/blob/master/2.%20CSS(styling).md)
 
 ## Mission
 ### [Chapter 1] 구조 디자인 (HTML 마크업)
@@ -23,3 +25,5 @@
 * 미션 2-2-typography 
     * [Github에서 보기](https://github.com/girin-dev/frontend-yamoo9-reviewer/tree/master/2-css-missions/2-2-typograph)
     * [Codepen에서 보기](https://codepen.io/kw8799/pen/BrdXYe)
+* [미션 2-4-layout-float](https://github.com/girin-dev/frontend-yamoo9-reviewer/tree/master/2-css-missions/2-4-layout-float)
+* [미션 2-5-layout-site](https://github.com/girin-dev/frontend-yamoo9-reviewer/tree/master/2-css-missions/2-5-layout-site)
