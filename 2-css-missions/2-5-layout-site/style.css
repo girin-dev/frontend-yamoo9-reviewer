@@ -1,0 +1,54 @@
+.wrapper {
+    background-color: #2D2C31;
+    width: 100%;
+    height: 100%;
+
+}
+
+img {
+    vertical-align: middle;
+}
+.header {
+    width: 1400px;
+    height: 468px;
+    background-image: url("./images/header.png")
+}
+
+.main {
+    width: 1400px;
+    height: 1751px;
+    background-image: url("./images/main-top.png");
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.section-1 {
+    width: 1118px;
+    /* margin: 0 141px; */
+    padding: 342px 141px;
+}
+
+.section-1 .item {
+    float: left;
+    width: 559px;
+    height: 559px;
+}
+.section-2 {
+    width: 1118px;
+    padding: 1192px 141px;
+}
+
+.section-2 .item {
+    float: left;
+    height: 100%;
+}
+
+.footer {
+    width: 1400px;
+    height: 1877px;
+    background-image: url("./images/main-bottom.png")
+}
